@@ -1,4 +1,4 @@
-# Vallmere - e-coomerce b2c
+# Vallmere - e-commerce b2c
 
 Este repositorio contiene la aplicación web para el e-commerce b2c de ropa y accesorios Vallmere, dividida en dos partes: un **backend** desarrollado con Nest.js y un **frontend** basado en HTML vanilla servido por Express (temporal, en un futuro se utilizará el framework Angular). Ambas partes están contenedorizadas usando Docker para facilitar su despliegue y ejecución.
 
