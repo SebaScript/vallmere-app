@@ -1,0 +1,21 @@
+version: '3'
+services:
+  backend:
+    # para usar la imagen en Dockerhub
+    image: sebascript555/vallmere-backend:latest
+    # para hacer la build de las imagenes con el Dockerfile
+    # build: ./backend
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./backend:/app
+      - /app/node_modules
+  frontend:
+    # para usar la imagen en Dockerhub
+    image: sebascript555/vallmere-frontend:latest
+    # para hacer la build de las imagenes con el Dockerfile
+    # build: ./frontend
+    ports:
+    - "8080:8080"
+    volumes:
+      - ./frontend/src:/app/src
